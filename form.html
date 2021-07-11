@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9V8mvXNDCCYGYqLuut_2AmkNbCsq5AkHMuw&usqp=CAU" type="image/icon type">
+
+  <title>sign up form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<h1 align="center"><b><i> Sign Up Form</i></b></h1>
+<hr height=10px width=400px color=blue>
+<br>
+
+<body class="body">
+  <div class="container">
+    <form>
+      <div>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+      </div>
+      <div>
+        <input type="email" id="email" name="Email" placeholder="Email" required>
+      </div>
+      <div>
+        <input type="text" id="address" name="Address" placeholder="Address" required>
+      </div>
+      <div>
+        <input type="text" id="phone no" name="Phone no" placeholder="Phone no." required>
+      </div>
+      <div>
+        <br>
+        <input type="radio" name="course" value="Hardware"> Hardware <br>
+        <input type="radio" name="course" value="Software"> Software <br>
+        <input type="radio" name="course" value="Design "> Design <br>
+        <br>
+      </div>
+      <div>
+        <label><b>Choose a Skill &nbsp;&nbsp;</b></label>
+        <select class="option" type="select" id="select" required>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js">JS</option>
+        </select>
+      </div>
+      <div>
+        <input type="password" id="password" name="Password" placeholder="Password" required>
+        <input type="password" id="Confirm password" name="Confirm Password" placeholder="Confirm Password" required>
+        <input type="submit" value="SEND">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
